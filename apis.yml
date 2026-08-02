@@ -1,8 +1,30 @@
 aid: wint
 name: WINT
-description: WINT is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  WINT (also styled Wint) is an AI-powered water management and leak-detection
+  platform for commercial and industrial facilities. Its IoT flow sensors,
+  automated shut-off valves, and 24/7 staffed monitoring center use signal
+  processing and anomaly detection to catch leaks in real time across main
+  feeds, domestic cold and hot water, HVAC loops, cooling towers, and
+  irrigation systems, reporting 20-25% average water-consumption reduction and
+  up to 90% less water damage and insurance loss. WINT is backed by Insight
+  Partners and carries NSF International, ISO, and USGBC affiliations. During
+  enrichment no public developer API, documentation, well-known discovery
+  surface, OpenAPI, or SDK was found; this profile captures the company's
+  public web properties and a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/wint/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://wint.ai/wp-content/uploads/2024/01/fav-300x300-1.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Water Management
+- Leak Detection
+- Water Intelligence
+- IoT
+- Facilities Management
+- Sustainability
+- Anomaly Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://wint.ai/
+- type: Blog
+  url: https://wint.ai/blog/
+- type: Support
+  url: https://wint.ai/support/
+- type: PrivacyPolicy
+  url: https://wint.ai/privacy-policy/
+- type: TermsOfService
+  url: https://wint.ai/customer-terms-and-conditions/
+- type: DomainSecurity
+  url: security/wint-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
