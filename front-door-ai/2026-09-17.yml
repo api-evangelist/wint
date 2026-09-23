@@ -1,0 +1,27 @@
+# Front Door AI Index — wint — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: wint
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: wint.ai
+  final_host: wint.ai
+  ownership: own
+  owner: wint
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 9
+  host_score: 9
+  density: 8.81
+  words: 1022
+  tiers:
+    agentic: 0
+    core: 9
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 8
+    intelligence: 4
+    artificial intelligence: 1
